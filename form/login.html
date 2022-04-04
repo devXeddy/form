@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Login Form</title>
+</head>
+
+<body>
+
+    <div class="center">
+        <h1>Edo's Login</h1>
+        <form method="post" action="login-check.php">
+          <div class="txt_field">
+            <input type="text" required
+            name="username">
+            
+            <span></span>
+            <label>Username</label>
+          </div>
+          <div class="txt_field">
+            <input type="password"
+            name="password"
+             required>
+            <span></span>
+            <label>Password</label>
+          </div>
+          <div class="pass"><a id="pwd_lost" href="./pwd_lost.html">Password dimenticata?</a></div>
+          <input type="submit" value="Login">
+          <div class="signup_link">
+            Non sei un membro? <a href="./register.html">Registrati!</a>
+          </div>
+        </form>
+      </div>
+
+    
+    
+</body>
+</html>

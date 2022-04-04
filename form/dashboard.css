@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(100deg,#3a8fff, #e3e9ff);
+
+}
+
+h1{
+    margin-top: 2%;
+    color:#ffffff;
+    margin-left: 2.5%;
+    padding-left: 1%;
+    font-family: "Poppins", sans-serif;
+    width: 13%;
+    background-color:#3675a0;
+    border-radius: 15px;
+}
+
+h1:hover{
+
+    filter: drop-shadow(0 0 0.75em rgb(255, 255, 255));
+    background-color:#3d90c7;
+
+}
+
+.dashboard{
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-size: 160%;
+    margin-left: 4%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+#wback-username{
+
+    color: #000000;
+
+    position: absolute;
+    top: 6%;
+    left: 25%;
+
+}
+
+
+#my-profile1{
+    position: absolute;
+    top: 19%;
+    font-size: 90%;
+    left: 5%;
+    color: #000000;
+    text-decoration: none;
+}
+
+#my-profile1:visited{
+    color: #3ab0ff;
+    text-decoration: none;
+}
+
+#my-friends1{
+    position: absolute;
+    font-size: 90%;
+    top: 24%;
+    left: 5%;
+    color: #000000;
+    text-decoration: none;
+}
+
+#my-friends1:visited{
+    text-decoration: none;
+}
+
+#Messages1{
+    position: absolute;
+    font-size: 90%;
+    top: 29%;
+    left: 5%;
+    color: #000000;
+    text-decoration: none;
+}
+
+#notifications1{
+    position: absolute;
+    font-size: 90%;
+    top: 34%;
+    left: 5%;
+    color: #000000;
+    text-decoration: none;
+}
+
+#settings1{
+    position: absolute;
+    font-size: 90%;
+    top: 39%;
+    left: 5%;
+    color: #000000;
+    text-decoration: none;
+}
+
+#left-menu{
+    width: 16.5%;
+    height: 40%;
+    margin-left: 2.5%;
+    margin-top: 3.7%;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.profile-presentation{
+    position: absolute;
+    margin-top: 2.5%;
+    left: 29%;
+    width: 40%;
+    height: 20%;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+#profile-pic-presentation{
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 80%;
+}
+
+#name-presentation{
+
+    font-family: "Poppins", sans-serif;
+    color: #505050;
+    font-size: 130%;
+    margin-left: 29%;
+    margin-top: -10%;
+    font-weight: bold;
+
+}
+
+#surname-presentation{
+
+    font-family: "Poppins", sans-serif;
+    color: #505050;
+    font-size: 130%;
+    margin-left: 38%;
+    margin-top: -6.8%;
+    font-weight: bold;
+
+}
+
+
+#status-presentation{
+    font-family: "Poppins", sans-serif;
+    color: #505050;
+    font-size: 90%;
+    margin-left: 29%;
+    margin-top: -1.5%;
+    font-weight: bold;
+}
+
+#status-php{
+    font-family: "Poppins", sans-serif;
+    margin-left: 36.5%;
+    margin-top: -4.9%;
+    font-weight: bold;
+    color: #3a8fff;
+}
+
+.online-friends-dashboard{
+    font-family: "Poppins", sans-serif;
+    font-size: 130%;
+    position: absolute;
+    top: 16.3%;
+    left: 77%;
+    padding-left: 2%;
+    font-weight: bold;
+    width: 15%;
+    height: 60%;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+#online-friends{
+
+    margin-left: 8%;
+
+}
+
+
+#online-friends-counter{
+
+    color: #57d352;
+    margin-top: -17.5%;
+    margin-left: 65%;
+
+
+}
+
+
